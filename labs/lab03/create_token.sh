@@ -5,7 +5,7 @@ tokenamount="10000000"
 output="2000000"
 
 address=$(cat base.addr)
-address_SKEY="payment.skey"
+address_SKEY="../payment.skey"
 cardano-cli query utxo --address $address $testnet
 
 txhash="e5b7710f8dc10cc4b9d4bec60b7cb2d528ae40c24f0e9fb053a92c63c88b482a"
